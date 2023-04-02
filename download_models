@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-npx dalai --home $HOME/vault/data alpaca install 7B 13B 30B
-npx dalai --home $HOME/vault/data llama install 7B 13B 30B 65B
+npx dalai alpaca install 7B 13B 30B --home $HOME/vault/data/dalai
+npx dalai llama install 7B 13B 30B 65B --home $HOME/vault/data/dalai

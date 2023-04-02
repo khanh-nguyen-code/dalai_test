@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npx dalai --home $HOME serve
+npx dalai serve --home $HOME/dalai
