@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-rsync -avh --delete --exclude "llama" /Users/khanh/vault/data/dalai /Users/khanh/
+rsync -avh --delete --exclude "llama" $HOME/vault/data/dalai $HOME/

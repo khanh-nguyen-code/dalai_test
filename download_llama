@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npx dalai --home /Users/khanh/vault/data llama install 7B 13B 30B 65B
+npx dalai --home $HOME/vault/data llama install 7B 13B 30B 65B
