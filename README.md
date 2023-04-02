@@ -18,7 +18,7 @@
     - Install `dalai`
 
         ```bash
-        npm install dalai
+        npm install --loglevel verbose dalai
         ```
         After installing a `dalai`, the `dalai` binary should be stored in `./node_modules/.bin/dalai`
     
