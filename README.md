@@ -3,36 +3,38 @@
 ## INSTALL DALAI
 
 - `dalai` repository is hosted at [github.com/cocktailpeanut/dalai](https://github.com/cocktailpeanut/dalai)
-
-- the easiest way to use `dalai` is as follows
+  - the easiest way to use `dalai` is as follows
 
     - Install `node.js`. It comes with `npm` and `npx`
 
-    - Create a isolated node environment
+      - Create a isolated node environment
 
-        ```bash
-        mkdir dalai_test
-        npm init
-        ```
+          ```bash
+          mkdir dalai_test
+          npm init
+          ```
 
-    - Install `dalai`
+      - Install `dalai`
 
-        ```bash
-        npm install --loglevel verbose dalai
-        ```
-        After installing a `dalai`, the `dalai` binary should be stored in `./node_modules/.bin/dalai`
+          ```bash
+          npm install --loglevel verbose dalai
+          ```
+          After installing a `dalai`, the `dalai` binary should be stored in `./node_modules/.bin/dalai`
     
-    - Download models
+        - Download models
 
-        `dalai` makes the processing of downloading models easy. Below is an example of downloading `alpaca 7B` model. Please refer to [cocktailpeanut.github.io/dalai](https://cocktailpeanut.github.io/dalai) for more details
+          `dalai` makes the processing of downloading models easy.
+          Below is an example of downloading `alpaca 7B` model (specifying `--home` for download directory).
 
-        ```bash
-        npx dalai --home . alpaca install 7B
-        ```
-        *`npx dalai <args>` is identical to executing `./node_modules/.bin/dalai <args>`*
+          ```bash
+          npx dalai --home $HOME alpaca install 7B
+          ```
 
-    - Run the web UI
+          *Please refer to [cocktailpeanut.github.io/dalai](https://cocktailpeanut.github.io/dalai) for more details*
+          *`npx dalai <args>` is identical to executing `./node_modules/.bin/dalai <args>`*
 
-        ```bash
-        npx dalai --home . serve
-        ```
+      - Run the web UI
+
+          ```bash
+          npx dalai --home $HOME serve
+          ```
