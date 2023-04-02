@@ -27,12 +27,12 @@
         `dalai` makes the processing of downloading models easy. Below is an example of downloading `alpaca 7B` model. Please refer to [cocktailpeanut.github.io/dalai](https://cocktailpeanut.github.io/dalai) for more details
 
         ```bash
-        npx dalai alpaca install 7B
+        npx dalai --home . alpaca install 7B
         ```
         *`npx dalai <args>` is identical to executing `./node_modules/.bin/dalai <args>`*
 
     - Run the web UI
 
         ```bash
-        npx dalai serve
+        npx dalai --home . serve
         ```
