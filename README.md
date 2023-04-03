@@ -10,7 +10,7 @@
       - Create a isolated node environment
 
           ```bash
-          mkdir dalai_test
+          mkdir dalai_test; cd dalai_test
           npm init
           ```
 
