@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-rsync -avh --delete --exclude "llama" --exclude "tmp" $HOME/vault/data/dalai $HOME/
