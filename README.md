@@ -27,7 +27,7 @@
           Below is an example of downloading `alpaca 7B` model (specifying `--home` for download directory).
 
           ```bash
-          npx dalai --home $HOME alpaca install 7B
+          npx dalai --home $HOME/dalai alpaca install 7B
           ```
 
           *Please refer to [cocktailpeanut.github.io/dalai](https://cocktailpeanut.github.io/dalai) for more details*
@@ -36,5 +36,5 @@
       - Run the web UI
 
           ```bash
-          npx dalai --home $HOME serve
+          npx dalai --home $HOME/dalai serve
           ```
